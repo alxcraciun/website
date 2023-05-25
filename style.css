@@ -207,3 +207,16 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
