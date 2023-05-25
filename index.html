@@ -20,7 +20,7 @@
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#desk-setup">Desk Setups</a>
             <div class="dropdown">
                 <a href="#blog" id="blog">Blog</a>
                 <div class="dropdown-menu">
@@ -108,13 +108,56 @@
                 <a href='#' class="btn">Read More</a>
             </div>
         </div>
+    </section>
 
+    <section class="desk-setup" id="desk-setup">
+        <h2 class="heading"><span>Desk Setups</span> by Unsplash</h2>
 
+        <div class="desk-setup-container">
+            <div class="desk-setup-box">
+                <img src="images/desk-setup.jpg" alt="">
+                <div class="desk-setup-layer">
+                    <h4>Artist Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, placeat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="desk-setup-box">
+                <img src="images/desk-setup.jpg" alt="">
+                <div class="desk-setup-layer">
+                    <h4>Artist Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, placeat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div id="btnAddDeskSetup">
+                <i class='bx bxs-file-plus'></i></i>
+                <h4>Add Desk Setup</h4>
+                <p>Import a new desk setup from Unsplash</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Sign up to <span>my newsletter!</span></h2>
+        <form action="#" id="newsletter-form">
+            <div class="input-box">
+                <input type="text" placeholder="Name" id="name-input">
+                <input type="email" placeholder="Email" id="email-input">
+            </div>
+            <input type="submit" value="I want to join!" class="btn">
+        </form>
     </section>
 
     <!-- JavaScript -->
+    <script src="js/script.js"></script>
     <script src="js/animate.js"></script>
     <script src="js/colorRandom.js"></script>
+    <script src="js/addDeskSetup.js"></script>
+    <script src="js/formSubmission.js"></script>
 </body>
 
 </html>
