@@ -143,10 +143,10 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <h2 class="heading">Sign up to <span>my newsletter!</span></h2>
-        <form action="#" id="newsletter-form">
+        <form action="/submit" method = "POST" id="newsletter-form">
             <div class="input-box">
-                <input type="text" placeholder="Name" id="name-input">
-                <input type="email" placeholder="Email" id="email-input">
+                <input type="text" placeholder="Name" id="name-input" required>
+                <input type="email" placeholder="Email" id="email-input" required>
             </div>
             <input type="submit" value="I want to join!" class="btn">
         </form>

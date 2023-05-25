@@ -9,3 +9,7 @@ window.onload = () => {
         + timeNow.getSeconds();
     localStorage.setItem('last_session', timeNow);
 };
+
+document.addEventListener('keydown', (event) => {
+    console.log(`Key Pressed: ${event.key}`);
+});

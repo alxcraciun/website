@@ -16,9 +16,3 @@ function addDeskSetup() {
 
 var btnAddDeskSetup = document.getElementById("btnAddDeskSetup");
 btnAddDeskSetup.addEventListener("click", addDeskSetup);
-
-
-
-
-
-

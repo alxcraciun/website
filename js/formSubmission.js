@@ -1,4 +1,5 @@
 document.getElementById('newsletter-form').addEventListener('submit', function(event) {
+    event.stopPropagation();
     event.preventDefault();
 
     const nameInput = document.getElementById('name-input');
