@@ -15,31 +15,39 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Alex Craciun</a>
-
         <i class="bx bx-menu" id="menu-icon"></i>
-
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
+            <div class="dropdown">
+                <a href="#blog" id="blog">Blog</a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <a href='#'>All </a>
+                        <a href='#'>Coding</a>
+                        <a href='#'>Lifestyle</a>
+                        <a href='#'>Volunteering</a>
+                    </ul>
+                </div>
+            </div>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <!-- Home Section -->
-    <section class="home" id="home">
+    <section class="home hidden" id="home">
         <div class="home-content">
             <h3>Hello, my name is </h3>
             <h1>Alex Craciun</h1>
             <h3>and I'm a <span>Frontend Developer</span></h3>
-            <p>Lorem ipsum</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-tiktok'></i></box-icon></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></box-icon></a>
-                <a href="#"><i class='bx bxl-github'></i></box-icon></a>
-                <a href="#"><i class='bx bxl-youtube'></i></a>
+                <a href="https://instagram.com/alxcraciun/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.tiktok.com/@alxcraciun/"><i class='bx bxl-tiktok'></i></box-icon></a>
+                <a href="https://www.linkedin.com/in/alxcraciun/"><i class='bx bxl-linkedin'></i></box-icon></a>
+                <a href="https://github.com/alxcraciun/"><i class='bx bxl-github'></i></box-icon></a>
+                <a href="https://www.youtube.com/channel/UCAADEmEX7fkC6d5m0Io57Gw/"><i class='bx bxl-youtube'></i></a>
             </div>
             <a href="#" class="btn">Download Resume</a>
         </div>
@@ -50,9 +58,20 @@
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section class="about hidden" id="about">
         <div class="about-img">
-            
+            <img src="images/about.png" alt="Profile Photo Alex Craciun">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Over the past four years, I have gained valuable experience in project management, leadership and digital
+                marketing through my involvement in over 20 projects across different organisations. <br><br>
+
+                Since 2022, I've decided to follow my childhood passion for coding and building my own projects during
+                my Bachelor's Degree in Informatics.</p>
+            <a href="./timeline.html" class="btn">My Background</a>
         </div>
     </section>
 
