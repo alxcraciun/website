@@ -372,6 +372,7 @@ span {
     cursor: pointer;
     transition: .3s ease;
     border: .2rem solid var(--bg-color);
+    aspect-ratio: 1920 / 1080;
 }
 
 #btnAddDeskSetup:hover {
@@ -427,7 +428,6 @@ span {
 
 .contact form .btn {
     margin: 1rem;
-    width: 100%;
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
